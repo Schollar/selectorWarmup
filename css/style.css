@@ -10,3 +10,27 @@ p {
     color: orange;
     text-align: center;
 }
+
+#img {
+    width: 800px;
+    filter: hue-rotate(90deg);
+    filter: blur(5px);
+    height: 600px;
+}
+
+.title {
+    text-shadow: 5px 5px black;
+}
+h1~p {
+    box-shadow: 1px 1px 9px black;
+}
+
+h1:hover {
+    background-color: blue;
+}
+
+.img:focus {
+    width: 1000px;
+    height: 800px;
+    filter: blur(0);
+}
