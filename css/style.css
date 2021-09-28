@@ -1,0 +1,12 @@
+body {
+    background-color: powderblue;
+}
+h1 {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+p {
+    color: orange;
+    text-align: center;
+}
