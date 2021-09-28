@@ -10,14 +10,20 @@ p {
     color: orange;
     text-align: center;
 }
-
+p:focus {
+    color: purple;
+}
 #img {
     width: 800px;
     filter: hue-rotate(90deg);
     filter: blur(5px);
     height: 600px;
 }
-
+#img:active {
+    width: 1000px;
+    height: 800px;
+    filter: blur(0);
+}
 .title {
     text-shadow: 5px 5px black;
 }
@@ -29,8 +35,3 @@ h1:hover {
     background-color: blue;
 }
 
-#img:focus {
-    width: 1000px;
-    height: 800px;
-    filter: blur(0);
-}
